@@ -10,423 +10,607 @@
         android:id="@+id/buttonGradResult"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="220dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMerApproxGrad" />
 
     <TextView
         android:id="@+id/textView46"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="461dp" />
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="251dp"
+        android:text="''"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView48"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="251dp"
         android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMinsResult"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <EditText
         android:id="@+id/buttonMinsResult"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginBottom="21dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonHyro"
+        app:layout_constraintEnd_toStartOf="@+id/textView47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/buttonSecsResult"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="221dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMerApproxSecs" />
 
     <TextView
         android:id="@+id/textView47"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="251dp"
         android:text="'"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="461dp" />
-
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="44dp"
-        android:text="'"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="40dp" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="181dp" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSecsResult" />
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="316dp" />
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="50dp"
+        android:text="''"
+        app:layout_constraintBottom_toTopOf="@+id/textView43"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView43"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="396dp" />
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="47dp"
+        android:text="''"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView44"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="101dp" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="181dp" />
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="53dp"
+        android:text="''"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView37"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="46dp"
         android:text="'"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="396dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMerApproxSecs" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="52dp"
         android:text="'"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="'"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="40dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFormPopravkaSecs" />
 
     <TextView
         android:id="@+id/textView36"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="52dp"
         android:text="'"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPopravkaSecs" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
         android:text="N3"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
         android:text="N2"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="60dp"
         android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="14dp"
         android:text="Сближение меридианов"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="396dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMerApproxGrad"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="20dp"
         android:text="Поправка"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPopravkaGrad"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView49"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="221dp"
         android:text="Результат"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGradResult"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView32"
-        android:layout_width="50dp"
+        android:layout_width="60dp"
         android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="23dp"
         android:text="Формулярная поправка"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFormPopravkaGrad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
         android:text="N1"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="40dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintEnd_toStartOf="@+id/buttonN1grad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="26dp"
         android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintEnd_toStartOf="@+id/buttonPopravkaMins"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="26dp"
         android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="396dp" />
+        app:layout_constraintEnd_toStartOf="@+id/buttonMerApproxMins"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="26dp"
         android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="40dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:text="˚"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintEnd_toStartOf="@+id/buttonFormPopravkaMins"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
         android:id="@+id/buttonN1grad"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="31dp" />
-
-    <EditText
-        android:id="@+id/buttonN3grad"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="181dp" />
-
-    <EditText
-        android:id="@+id/buttonMerApproxGrad"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="395dp" />
-
-    <EditText
-        android:id="@+id/buttonPopravkaGrad"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="326dp" />
-
-    <EditText
-        android:id="@+id/buttonFormPopravkaGrad"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <EditText
-        android:id="@+id/buttonN2grad"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="101dp" />
-
-    <EditText
-        android:id="@+id/buttonN3mins"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="181dp" />
-
-    <EditText
-        android:id="@+id/buttonFormPopravkaMins"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <EditText
-        android:id="@+id/buttonPopravkaMins"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="326dp" />
-
-    <EditText
-        android:id="@+id/buttonN1mins"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="31dp" />
-
-    <EditText
-        android:id="@+id/buttonMerApproxMins"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonN2grad"
+        app:layout_constraintEnd_toStartOf="@+id/buttonN1secs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/buttonN2mins"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="30dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonN3mins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="27dp"
+        android:text="˚"
+        app:layout_constraintEnd_toStartOf="@+id/buttonN3mins"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        tools:layout_editor_absoluteY="166dp" />
 
     <EditText
-        android:id="@+id/buttonN1secs"
+        android:id="@+id/buttonN1mins"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="31dp" />
-
-    <EditText
-        android:id="@+id/buttonMerApproxSecs"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="395dp" />
-
-    <EditText
-        android:id="@+id/buttonN2secs"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="101dp" />
-
-    <EditText
-        android:id="@+id/buttonPopravkaSecs"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="326dp" />
-
-    <EditText
-        android:id="@+id/buttonFormPopravkaSecs"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonN2mins"
+        app:layout_constraintEnd_toStartOf="@+id/buttonN1secs"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/buttonN3secs"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="39dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonFormPopravkaSecs"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:text="˚"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/buttonN1grad"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="61dp"
+        android:text="''"
+        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonN2secs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonN3secs"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintStart_toEndOf="@+id/buttonN2mins"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonN3mins"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFormPopravkaMins"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:text="˚"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        tools:layout_editor_absoluteX="118dp" />
+
+    <EditText
+        android:id="@+id/buttonN2grad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonN3grad"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="61dp"
+        android:text="'"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toStartOf="@+id/buttonN2secs"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <EditText
+        android:id="@+id/buttonN1secs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonN2secs"
+        app:layout_constraintEnd_toStartOf="@+id/textView45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="43dp"
+        android:text="''"
+        app:layout_constraintBottom_toTopOf="@+id/textView41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="70dp"
+        android:text="'"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toStartOf="@+id/buttonN3secs" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="27dp"
+        android:text="'"
+        app:layout_constraintEnd_toStartOf="@+id/buttonN1secs"
+        app:layout_constraintStart_toEndOf="@+id/buttonN1mins"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="70dp"
+        android:text="''"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonN3grad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="515dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonMerApproxGrad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="288dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPopravkaGrad" />
+
+    <EditText
+        android:id="@+id/buttonPopravkaGrad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="358dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFormPopravkaGrad" />
+
+    <EditText
+        android:id="@+id/buttonFormPopravkaGrad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="289dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonN3grad" />
+
+    <EditText
+        android:id="@+id/buttonFormPopravkaMins"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPopravkaMins"
+        app:layout_constraintEnd_toStartOf="@+id/textView38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonPopravkaMins"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMerApproxMins"
+        app:layout_constraintEnd_toStartOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonMerApproxMins"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMinsResult"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonMerApproxSecs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="286dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPopravkaSecs" />
+
+    <EditText
+        android:id="@+id/buttonPopravkaSecs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttonFormPopravkaSecs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPopravkaSecs"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonHyro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="152dp"
         android:text="Ввод"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="531dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
